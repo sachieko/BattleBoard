@@ -5,6 +5,6 @@ interface IdeleteParams {
 }
 
 export async function action({ params }: IdeleteParams) {
-    await setTimeout(() => alert(`deleted board ${params.boardId}!`), 1000)
+    setTimeout(() => alert(`deleted board ${params.boardId}!`), 1000)
     return redirect('/');
 };

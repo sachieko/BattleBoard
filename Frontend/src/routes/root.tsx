@@ -38,10 +38,10 @@ export default function Root() {
         <nav>
           <ul>
             <li>
-              <a href={`/contacts/1`}>Seiko</a>
+              <a href={`/boards/1`}>Seiko</a>
               <Form
                 method="post"
-                action="boards/14/delete"
+                action="boards/14/delete" // Example
                 onSubmit={(event) => {
                   if (
                     !confirm(
@@ -54,7 +54,7 @@ export default function Root() {
                 ><button type="submit">Delete</button></Form>
             </li>
             <li>
-              <a href={`/contacts/2`}>Nagisa</a>
+              <a href={`/boards/2`}>Nagisa</a>
             </li>
           </ul>
         </nav>
